@@ -2,7 +2,7 @@
 ## Welcome to the Ultra Marathon Data Analysis project! 🏃‍♂️🔍
 
 ### Overview
-This ongoing project is a comprehensive exploration of ultra marathon running events, powered by Python, pandas and seaborn data science libraries. Currently, we've focused on a subset of the original dataset, containing 7.5 million records.
+This ongoing project is a comprehensive exploration of ultra marathon running events, powered by Python, pandas, and seaborn data science libraries. Currently, we've focused on a subset of the original dataset, containing 7.5 million records.
 
 ### Key Steps
 ### 1. Importing and Exploring Data
@@ -16,6 +16,9 @@ Data integrity is paramount. We conduct checks for duplicate rows and ensure a c
 
 ### 4. Data Type Conversion and Column Renaming
 Maintaining accurate data types is crucial. We convert athlete age to integers and athlete average speed to floats. Column names are streamlined for clarity.
+
+### 5. Plotting graphs with Seaborn 
+We utilize Seaborn to visualize key insights. Histograms showcase race lengths, distributions of athlete average speeds, and violin plots provide a comparative view of athlete average speeds across different race lengths and genders. Additionally, a scatter plot explores the relationship between athlete age and average speed.
 
 ## Status
 While we've made significant progress, this project is not yet complete. The original dataset, boasting 7.5 million records, holds immense potential for deeper insights. Stay tuned for further developments!
