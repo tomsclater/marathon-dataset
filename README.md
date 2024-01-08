@@ -20,6 +20,12 @@ Maintaining accurate data types is crucial. We convert athlete age to integers a
 ### 5. Plotting graphs with Seaborn 
 We utilize Seaborn to visualize key insights. Histograms showcase race lengths, distributions of athlete average speeds, and violin plots provide a comparative view of athlete average speeds across different race lengths and genders. Additionally, a scatter plot explores the relationship between athlete age and average speed.
 
+### 6. **Analyzing Seasonal Trends in Athlete Performance**
+   Explore seasonal trends in athlete performance by categorizing races into seasons and analyzing average speeds.
+   Additionally, focus on 50mi races and analyze average speeds by season.
+
+df3.query('race_length == "50mi"').groupby('race_season')['athlete_average_speed'].agg(['mean', 'count']).sort_values('mean', ascending=False)
+
 ## Status
 While we've made significant progress, this project is not yet complete. The original dataset, boasting 7.5 million records, holds immense potential for deeper insights. Stay tuned for further developments!
 
