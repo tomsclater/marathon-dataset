@@ -33,9 +33,3 @@ df3.query('race_length == "50mi"').groupby('race_season')['athlete_average_speed
 This project is complete. 
 
 The original dataset, boasting 7.5 million records, holds immense potential for deeper insights. 
-
-Stay tuned for further developments!
-
-### Note: Explore the code and dive into the cleaned dataset. 
-
-The original dataset promises a broader perspective on ultra marathon events.
