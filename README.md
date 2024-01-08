@@ -1,5 +1,6 @@
 # Ultra Marathon Data Analysis Project
-## Welcome to the Ultra Marathon Data Analysis project! 🏃‍♂️🔍
+## Welcome to the Ultra Marathon Data Analysis project!  
+# 🏃‍♂️🔍
 
 ### Overview
 This ongoing project is a comprehensive exploration of ultra marathon running events, powered by Python, pandas, and seaborn data science libraries. Currently, we've focused on a subset of the original dataset, containing 7.5 million records.
