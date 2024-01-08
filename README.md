@@ -1,5 +1,4 @@
 # Ultra Marathon Data Analysis Project
-## Welcome to the Ultra Marathon Data Analysis project!  
 # 🏃‍♂️🔍
 
 ### Overview
