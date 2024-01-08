@@ -22,7 +22,8 @@ We utilize Seaborn to visualize key insights. Histograms showcase race lengths, 
 
 ### 6. **Analyzing Seasonal Trends in Athlete Performance**
    Explore seasonal trends in athlete performance by categorizing races into seasons and analyzing average speeds.
-   Additionally, focus on 50mi races and analyze average speeds by season.
+   
+   Additionally, we focus on 50mi races and analyze average speeds by season.
 
 ```python
 df3.query('race_length == "50mi"').groupby('race_season')['athlete_average_speed'].agg(['mean', 'count']).sort_values('mean', ascending=False)
