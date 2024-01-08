@@ -2,7 +2,7 @@
 # 🏃‍♂️🔍
 
 ### Overview
-This ongoing project is a comprehensive exploration of ultra marathon running events, powered by Python, pandas, and seaborn data science libraries. Currently, I've focused on a subset of the original dataset, containing 7.5 million records.
+This ongoing project is a comprehensive exploration of ultra marathon running events, powered by Python, pandas, and seaborn data science libraries. Currently, it focuses on a subset of the original dataset, containing 7.5 million records.
 
 ### Key Steps
 ### 1. Importing and Exploring Data
